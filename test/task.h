@@ -21,8 +21,8 @@
 
 #ifndef TASK_H_
 #define TASK_H_
-/*maybe good place to put compat code*/
-#include "../src/compat/compat.h"
+/* maybe good place to put compat code? we copy header file to make test run everywhere. */
+#include "compat.h"
 
 #include "uv.h"
 
